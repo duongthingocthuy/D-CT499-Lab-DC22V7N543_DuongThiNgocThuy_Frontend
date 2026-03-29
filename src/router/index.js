@@ -3,10 +3,10 @@ import ContactBook from "@/views/ContactBook.vue";
 
 const routes = [
     {
-        path: "/contacts/:id",
-        name: "contact.edit",
-        component: () => import("@/views/ContactEdit.vue"),
-        props:true,
+        path: "/contacts/addContact",
+        name: "contact.add",
+        component: () => import("@/views/ContactAdd.vue"),
+        // props:true,
     }
 ];
 
